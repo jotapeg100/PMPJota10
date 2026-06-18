@@ -1,0 +1,15 @@
+{
+  "name": "pmp-control-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP de plataforma de gestion de iniciativas y proyectos para control PMP.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
