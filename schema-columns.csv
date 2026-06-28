@@ -1,0 +1,140 @@
+table_name,column_name,data_type,is_nullable,column_default
+areas,id,uuid,NO,gen_random_uuid()
+areas,name,text,NO,
+areas,description,text,YES,
+areas,created_at,timestamp with time zone,NO,now()
+areas,updated_at,timestamp with time zone,NO,now()
+areas,created_by,uuid,YES,auth.uid()
+client_contacts,id,uuid,NO,gen_random_uuid()
+client_contacts,client_id,uuid,NO,
+client_contacts,contact_email,text,YES,
+client_contacts,contact_first_name,text,YES,
+client_contacts,contact_last_name,text,YES,
+client_contacts,contact_role,text,YES,
+client_contacts,contact_area,text,YES,
+client_contacts,created_at,timestamp with time zone,NO,now()
+client_contacts,updated_at,timestamp with time zone,NO,now()
+clients,id,uuid,NO,gen_random_uuid()
+clients,name,text,NO,
+clients,slug,text,NO,
+clients,logo_url,text,YES,
+clients,industry,text,YES,
+clients,status,text,NO,'active'::text
+clients,notes,text,YES,
+clients,created_at,timestamp with time zone,NO,now()
+clients,updated_at,timestamp with time zone,NO,now()
+clients,created_by,uuid,YES,auth.uid()
+cockpit_rules,id,uuid,NO,gen_random_uuid()
+cockpit_rules,singleton,boolean,NO,true
+cockpit_rules,high_risk_score,integer,NO,6
+cockpit_rules,escalation_high_risks,integer,NO,2
+cockpit_rules,upcoming_days,integer,NO,14
+cockpit_rules,ask_conformity_days,integer,NO,7
+cockpit_rules,amber_on_upcoming,boolean,NO,true
+cockpit_rules,amber_on_delivered_pending,boolean,NO,true
+cockpit_rules,expand_relationship_on_delivered,boolean,NO,true
+cockpit_rules,updated_at,timestamp with time zone,NO,now()
+cockpit_rules,updated_by,uuid,YES,
+conformities,id,uuid,NO,gen_random_uuid()
+conformities,deliverable_id,uuid,NO,
+conformities,user_id,uuid,NO,
+conformities,comment,text,YES,
+conformities,signed_at,timestamp with time zone,NO,now()
+conformities,received_at,timestamp with time zone,YES,
+conformities,channel,USER-DEFINED,YES,
+conformities,client_contact,text,YES,
+conformities,message,text,YES,
+conformities,external_link,text,YES,
+conformities,is_closure_act,boolean,NO,false
+conformities,external_links,ARRAY,NO,'{}'::text[]
+conformities,received_date,date,YES,
+conformities,observations,text,YES,
+deliverable_attachments,id,uuid,NO,gen_random_uuid()
+deliverable_attachments,deliverable_id,uuid,NO,
+deliverable_attachments,conformity_id,uuid,YES,
+deliverable_attachments,kind,USER-DEFINED,NO,
+deliverable_attachments,storage_path,text,NO,
+deliverable_attachments,file_name,text,NO,
+deliverable_attachments,mime,text,YES,
+deliverable_attachments,size_bytes,bigint,YES,
+deliverable_attachments,uploaded_by,uuid,YES,
+deliverable_attachments,uploaded_at,timestamp with time zone,NO,now()
+deliverable_status_history,id,uuid,NO,gen_random_uuid()
+deliverable_status_history,deliverable_id,uuid,NO,
+deliverable_status_history,previous_status,USER-DEFINED,YES,
+deliverable_status_history,new_status,USER-DEFINED,NO,
+deliverable_status_history,notes,text,YES,
+deliverable_status_history,changed_by,uuid,YES,auth.uid()
+deliverable_status_history,changed_at,timestamp with time zone,NO,now()
+deliverable_status_history,created_at,timestamp with time zone,NO,now()
+deliverable_status_history,updated_at,timestamp with time zone,NO,now()
+deliverables,id,uuid,NO,gen_random_uuid()
+deliverables,project_id,uuid,NO,
+deliverables,title,text,NO,
+deliverables,description,text,YES,
+deliverables,status,USER-DEFINED,NO,'draft'::deliverable_status
+deliverables,due_date,date,YES,
+deliverables,created_at,timestamp with time zone,NO,now()
+deliverables,updated_at,timestamp with time zone,NO,now()
+deliverables,delivered_at,timestamp with time zone,YES,
+deliverables,delivery_notes,text,YES,
+deliverables,delivery_link,text,YES,
+deliverables,delivery_status,USER-DEFINED,NO,'pending'::delivery_status
+deliverables,created_by,uuid,YES,auth.uid()
+deliverables,committed_date,date,YES,
+deliverables,effective_date,date,YES,
+deliverables,delivery_links,ARRAY,NO,'{}'::text[]
+initiatives,id,uuid,NO,gen_random_uuid()
+initiatives,code,text,YES,
+initiatives,name,text,NO,
+initiatives,description,text,YES,
+initiatives,owner_id,uuid,YES,
+initiatives,area_id,uuid,YES,
+initiatives,rag,USER-DEFINED,NO,'gray'::rag_status
+initiatives,start_date,date,YES,
+initiatives,end_date,date,YES,
+initiatives,created_at,timestamp with time zone,NO,now()
+initiatives,updated_at,timestamp with time zone,NO,now()
+initiatives,client_id,uuid,NO,
+profiles,id,uuid,NO,
+profiles,display_name,text,YES,
+profiles,area_id,uuid,YES,
+profiles,created_at,timestamp with time zone,NO,now()
+profiles,updated_at,timestamp with time zone,NO,now()
+profiles,email,text,YES,
+profiles,area,text,YES,
+project_members,id,uuid,NO,gen_random_uuid()
+project_members,project_id,uuid,NO,
+project_members,user_id,uuid,NO,
+project_members,visible,boolean,NO,true
+project_members,created_at,timestamp with time zone,NO,now()
+projects,id,uuid,NO,gen_random_uuid()
+projects,initiative_id,uuid,YES,
+projects,parent_id,uuid,YES,
+projects,code,text,YES,
+projects,name,text,NO,
+projects,description,text,YES,
+projects,area_id,uuid,YES,
+projects,owner_id,uuid,YES,
+projects,rag,USER-DEFINED,NO,'gray'::rag_status
+projects,start_date,date,YES,
+projects,end_date,date,YES,
+projects,progress,integer,NO,0
+projects,created_at,timestamp with time zone,NO,now()
+projects,updated_at,timestamp with time zone,NO,now()
+risks,id,uuid,NO,gen_random_uuid()
+risks,project_id,uuid,NO,
+risks,title,text,NO,
+risks,description,text,YES,
+risks,probability,smallint,NO,
+risks,impact,smallint,NO,
+risks,score,smallint,YES,
+risks,mitigation,text,YES,
+risks,external,boolean,NO,false
+risks,status,text,NO,'open'::text
+risks,created_at,timestamp with time zone,NO,now()
+risks,updated_at,timestamp with time zone,NO,now()
+risks,created_by,uuid,YES,auth.uid()
+user_roles,id,uuid,NO,gen_random_uuid()
+user_roles,user_id,uuid,NO,
+user_roles,role,USER-DEFINED,NO,

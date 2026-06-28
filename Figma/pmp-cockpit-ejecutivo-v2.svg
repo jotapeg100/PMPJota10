@@ -1,0 +1,170 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F6F7F9"/>
+  <style>
+    .title { font: 700 28px Inter, Arial, sans-serif; fill: #111827; }
+    .subtitle { font: 400 13px Inter, Arial, sans-serif; fill: #6B7280; }
+    .section { font: 700 15px Inter, Arial, sans-serif; fill: #111827; }
+    .label { font: 700 11px Inter, Arial, sans-serif; fill: #6B7280; letter-spacing: .04em; }
+    .body { font: 500 13px Inter, Arial, sans-serif; fill: #374151; }
+    .body2 { font: 400 12px Inter, Arial, sans-serif; fill: #6B7280; }
+    .body3 { font: 600 12px Inter, Arial, sans-serif; fill: #374151; }
+    .num { font: 700 30px Inter, Arial, sans-serif; fill: #111827; }
+    .nav { font: 600 13px Inter, Arial, sans-serif; fill: #4B5563; }
+    .chip { font: 700 11px Inter, Arial, sans-serif; }
+    .mono { font: 600 12px "JetBrains Mono", Consolas, monospace; fill: #4B5563; }
+  </style>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="244" height="1024" fill="#FFFFFF"/>
+  <rect x="243" y="0" width="1" height="1024" fill="#E5E7EB"/>
+  <circle cx="40" cy="34" r="16" fill="#111827"/>
+  <text x="66" y="30" class="section">PMP Cockpit</text>
+  <text x="66" y="48" class="body2">Delivery · Finanzas · Cliente</text>
+  <rect x="20" y="92" width="204" height="38" rx="7" fill="#111827"/>
+  <text x="52" y="116" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Cockpit Ejecutivo</text>
+  <text x="52" y="162" class="nav">Iniciativas</text>
+  <text x="52" y="202" class="nav">Proyectos</text>
+  <text x="52" y="242" class="nav">Entregables</text>
+  <text x="52" y="282" class="nav">Riesgos</text>
+  <text x="52" y="322" class="nav">Clientes</text>
+  <text x="52" y="362" class="nav">Finanzas</text>
+  <text x="52" y="402" class="nav">Reportes</text>
+  <rect x="20" y="846" width="204" height="116" rx="8" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="36" y="874" class="label">PROPÓSITO</text>
+  <text x="36" y="900" class="body">Decidir, no gestionar tareas.</text>
+  <text x="36" y="922" class="body2">Señales para PMO, cliente</text>
+  <text x="36" y="940" class="body2">y cierre financiero.</text>
+
+  <!-- Header -->
+  <rect x="244" y="0" width="1196" height="72" fill="#FFFFFF"/>
+  <rect x="244" y="71" width="1196" height="1" fill="#E5E7EB"/>
+  <text x="276" y="34" class="title">Cockpit Ejecutivo</text>
+  <text x="276" y="55" class="subtitle">Matriz de decisión para PMO, relación con cliente y cierre financiero</text>
+  <rect x="1018" y="20" width="94" height="32" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="1040" y="41" class="body">Imprimir</text>
+  <rect x="1124" y="20" width="126" height="32" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="1146" y="41" class="body">Exportar PDF</text>
+  <rect x="1262" y="20" width="134" height="32" rx="6" fill="#111827"/>
+  <text x="1283" y="41" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Enviar reporte</text>
+
+  <!-- Executive questions -->
+  <text x="276" y="104" class="label">PREGUNTAS EJECUTIVAS · 25 JUN 2026</text>
+  <rect x="276" y="124" width="358" height="132" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="298" y="154" class="section">1. ¿Intervenir internamente?</text>
+  <text x="298" y="180" class="body2">Saber si CEO/COO debe hablar con PMO para reforzar gestión, foco, recursos o escalamiento.</text>
+  <rect x="298" y="206" width="158" height="28" rx="14" fill="#FEF2F2" stroke="#FECACA"/>
+  <circle cx="316" cy="220" r="5" fill="#DC2626"/>
+  <text x="330" y="224" class="chip" fill="#991B1B">REFUERZO PMO</text>
+
+  <rect x="654" y="124" width="358" height="132" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="676" y="154" class="section">2. ¿Hablar con el cliente?</text>
+  <text x="676" y="180" class="body2">Cuidar relación si va mal, alinear expectativa si va regular o expandir si el proyecto va bien.</text>
+  <rect x="676" y="206" width="178" height="28" rx="14" fill="#FFFBEB" stroke="#FDE68A"/>
+  <circle cx="694" cy="220" r="5" fill="#D97706"/>
+  <text x="708" y="224" class="chip" fill="#92400E">LLAMADA EJECUTIVA</text>
+
+  <rect x="1032" y="124" width="364" height="132" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="1054" y="154" class="section">3. ¿Cobrar o cerrar?</text>
+  <text x="1054" y="180" class="body2">Detectar si ya se puede facturar, cobrar, cerrar proyecto y anticipar nuevas iniciativas.</text>
+  <rect x="1054" y="206" width="186" height="28" rx="14" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <circle cx="1072" cy="220" r="5" fill="#16A34A"/>
+  <text x="1086" y="224" class="chip" fill="#166534">CIERRE FINANCIERO</text>
+
+  <!-- Decision agenda -->
+  <rect x="276" y="280" width="1120" height="190" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="310" class="section">Agenda ejecutiva recomendada</text>
+  <text x="296" y="332" class="body2">Las señales se traducen en conversaciones y decisiones, no en tareas técnicas.</text>
+
+  <rect x="296" y="354" width="340" height="86" rx="8" fill="#FEF2F2" stroke="#FECACA"/>
+  <text x="318" y="382" class="label">PMO</text>
+  <text x="318" y="407" class="body">Reforzar gestión en MIN-009</text>
+  <text x="318" y="427" class="body2">Vencidos + riesgo alto + proyecto rojo.</text>
+  <rect x="526" y="370" width="82" height="24" rx="12" fill="#FEE2E2"/>
+  <text x="546" y="386" class="chip" fill="#991B1B">HOY</text>
+
+  <rect x="660" y="354" width="340" height="86" rx="8" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="682" y="382" class="label">CLIENTE</text>
+  <text x="682" y="407" class="body">Llamar a Ministerio de Justicia</text>
+  <text x="682" y="427" class="body2">Alinear expectativa y sostener relación.</text>
+  <rect x="888" y="370" width="84" height="24" rx="12" fill="#FEF3C7"/>
+  <text x="908" y="386" class="chip" fill="#92400E">48 HS</text>
+
+  <rect x="1024" y="354" width="340" height="86" rx="8" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="1046" y="382" class="label">FINANZAS</text>
+  <text x="1046" y="407" class="body">Pedir conformidad para facturar</text>
+  <text x="1046" y="427" class="body2">4 entregados listos para cierre administrativo.</text>
+  <rect x="1258" y="370" width="78" height="24" rx="12" fill="#D1FAE5"/>
+  <text x="1278" y="386" class="chip" fill="#166534">LISTO</text>
+
+  <!-- KPI strip -->
+  <rect x="276" y="494" width="1120" height="108" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="524" class="section">Señales del portafolio</text>
+  <g>
+    <text x="296" y="560" class="label">CLIENTES</text>
+    <text x="296" y="590" class="num">2</text>
+  </g>
+  <g>
+    <text x="466" y="560" class="label">PROYECTOS CRÍTICOS</text>
+    <text x="466" y="590" class="num">2</text>
+  </g>
+  <g>
+    <text x="682" y="560" class="label">ENTREGABLES PRÓXIMOS</text>
+    <text x="682" y="590" class="num">15</text>
+  </g>
+  <g>
+    <text x="920" y="560" class="label">VENCIDOS SIN CONFORMIDAD</text>
+    <text x="920" y="590" class="num">5</text>
+  </g>
+  <g>
+    <text x="1190" y="560" class="label">RIESGOS ALTOS</text>
+    <text x="1190" y="590" class="num">2</text>
+  </g>
+
+  <!-- Matrix -->
+  <rect x="276" y="626" width="1120" height="270" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="656" class="section">Matriz de decisión por cliente e iniciativa</text>
+  <text x="296" y="678" class="body2">Cada fila debe terminar en una acción ejecutiva clara.</text>
+
+  <rect x="296" y="700" width="1080" height="38" fill="#F9FAFB"/>
+  <text x="316" y="724" class="label">CLIENTE / INICIATIVA</text>
+  <text x="534" y="724" class="label">SALUD DELIVERY</text>
+  <text x="684" y="724" class="label">ACCIÓN PMO</text>
+  <text x="846" y="724" class="label">MOVIMIENTO CLIENTE</text>
+  <text x="1062" y="724" class="label">CIERRE FINANCIERO</text>
+  <text x="1248" y="724" class="label">DECISIÓN</text>
+
+  <line x1="296" y1="738" x2="1376" y2="738" stroke="#E5E7EB"/>
+  <text x="316" y="766" class="body">Ministerio de Justicia</text>
+  <text x="316" y="786" class="body2">Assessment 2 · MIN-001</text>
+  <rect x="534" y="754" width="70" height="24" rx="12" fill="#FEF2F2" stroke="#FECACA"/>
+  <text x="554" y="770" class="chip" fill="#991B1B">ROJO</text>
+  <text x="684" y="770" class="body3">Refuerzo de gestión</text>
+  <text x="846" y="770" class="body3">Contención ejecutiva</text>
+  <text x="1062" y="770" class="body3">Conformidad pendiente</text>
+  <text x="1248" y="770" class="body3">Plan recuperación</text>
+
+  <line x1="296" y1="808" x2="1376" y2="808" stroke="#E5E7EB"/>
+  <text x="316" y="836" class="body">Ministerio de Justicia</text>
+  <text x="316" y="856" class="body2">LUD Legajo Único Digital · MIN-010</text>
+  <rect x="534" y="824" width="78" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="550" y="840" class="chip" fill="#92400E">ÁMBAR</text>
+  <text x="684" y="840" class="body3">Seguimiento PMO</text>
+  <text x="846" y="840" class="body3">Alinear alcance</text>
+  <text x="1062" y="840" class="body3">Preparar facturación</text>
+  <text x="1248" y="840" class="body3">Comité cliente</text>
+
+  <line x1="296" y1="878" x2="1376" y2="878" stroke="#E5E7EB"/>
+  <text x="316" y="906" class="body">Coppel</text>
+  <text x="316" y="926" class="body2">Relación activa · sin bloqueo visible</text>
+  <rect x="534" y="894" width="78" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="550" y="910" class="chip" fill="#166534">VERDE</text>
+  <text x="684" y="910" class="body3">Sin acción</text>
+  <text x="846" y="910" class="body3">Expandir relación</text>
+  <text x="1062" y="910" class="body3">Explorar nueva iniciativa</text>
+  <text x="1248" y="910" class="body3">Llamada comercial</text>
+
+  <!-- Print note -->
+  <rect x="276" y="920" width="1120" height="64" rx="8" fill="#111827"/>
+  <text x="300" y="950" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Lectura para email / PDF</text>
+  <text x="300" y="972" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#D1D5DB">El reporte debe cerrar con tres mensajes: dónde reforzar PMO, con qué cliente hablar y qué se puede cobrar/cerrar para habilitar nuevas iniciativas.</text>
+</svg>

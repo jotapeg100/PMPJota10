@@ -1,0 +1,187 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F6F7F9"/>
+
+  <style>
+    .title { font: 700 28px Inter, Arial, sans-serif; fill: #111827; }
+    .subtitle { font: 400 13px Inter, Arial, sans-serif; fill: #6B7280; }
+    .section { font: 700 15px Inter, Arial, sans-serif; fill: #111827; }
+    .label { font: 600 11px Inter, Arial, sans-serif; fill: #6B7280; letter-spacing: .04em; }
+    .body { font: 500 13px Inter, Arial, sans-serif; fill: #374151; }
+    .body2 { font: 400 12px Inter, Arial, sans-serif; fill: #6B7280; }
+    .num { font: 700 30px Inter, Arial, sans-serif; fill: #111827; }
+    .smallnum { font: 700 18px Inter, Arial, sans-serif; fill: #111827; }
+    .nav { font: 600 13px Inter, Arial, sans-serif; fill: #4B5563; }
+    .chip { font: 700 11px Inter, Arial, sans-serif; }
+    .mono { font: 600 12px "JetBrains Mono", Consolas, monospace; fill: #4B5563; }
+  </style>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="244" height="1024" fill="#FFFFFF"/>
+  <rect x="243" y="0" width="1" height="1024" fill="#E5E7EB"/>
+  <circle cx="40" cy="34" r="16" fill="#111827"/>
+  <text x="66" y="30" class="section">PMP Cockpit</text>
+  <text x="66" y="48" class="body2">Delivery &amp; Finanzas</text>
+
+  <rect x="20" y="92" width="204" height="38" rx="7" fill="#111827"/>
+  <text x="52" y="116" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Cockpit Ejecutivo</text>
+  <text x="52" y="162" class="nav">Iniciativas</text>
+  <text x="52" y="202" class="nav">Proyectos</text>
+  <text x="52" y="242" class="nav">Entregables</text>
+  <text x="52" y="282" class="nav">Riesgos</text>
+  <text x="52" y="322" class="nav">Clientes</text>
+  <text x="52" y="362" class="nav">Roadmap</text>
+  <text x="52" y="402" class="nav">Finanzas</text>
+
+  <rect x="20" y="850" width="204" height="112" rx="8" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="36" y="878" class="label">VISTA ACTUAL</text>
+  <text x="36" y="903" class="body">CEO / COO</text>
+  <text x="36" y="925" class="body2">Resumen ejecutivo listo</text>
+  <text x="36" y="943" class="body2">para imprimir o enviar.</text>
+
+  <!-- Header -->
+  <rect x="244" y="0" width="1196" height="72" fill="#FFFFFF"/>
+  <rect x="244" y="71" width="1196" height="1" fill="#E5E7EB"/>
+  <text x="276" y="34" class="title">Cockpit Ejecutivo</text>
+  <text x="276" y="55" class="subtitle">Salud del portafolio, decisiones recomendadas e impacto de negocio</text>
+  <rect x="1018" y="20" width="94" height="32" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="1040" y="41" class="body">Imprimir</text>
+  <rect x="1124" y="20" width="126" height="32" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="1146" y="41" class="body">Exportar PDF</text>
+  <rect x="1262" y="20" width="134" height="32" rx="6" fill="#111827"/>
+  <text x="1283" y="41" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Enviar reporte</text>
+
+  <!-- Main content -->
+  <text x="276" y="104" class="label">RESUMEN EJECUTIVO · 24 JUN 2026</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="276" y="124" width="208" height="118" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="296" y="153" class="label">CLIENTES ACTIVOS</text>
+    <text x="296" y="194" class="num">2</text>
+    <text x="296" y="220" class="body2">1 cliente con presión alta</text>
+  </g>
+  <g>
+    <rect x="500" y="124" width="208" height="118" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="520" y="153" class="label">PROYECTOS CRÍTICOS</text>
+    <text x="520" y="194" class="num">2</text>
+    <circle cx="656" cy="183" r="6" fill="#DC2626"/>
+    <circle cx="674" cy="183" r="6" fill="#D97706"/>
+    <text x="520" y="220" class="body2">1 rojo · 1 ámbar</text>
+  </g>
+  <g>
+    <rect x="724" y="124" width="208" height="118" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="744" y="153" class="label">ENTREGABLES PRÓXIMOS</text>
+    <text x="744" y="194" class="num">15</text>
+    <text x="744" y="220" class="body2">5 vencidos sin conformidad</text>
+  </g>
+  <g>
+    <rect x="948" y="124" width="208" height="118" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="968" y="153" class="label">RIESGOS ALTOS</text>
+    <text x="968" y="194" class="num">2</text>
+    <text x="968" y="220" class="body2">Score mayor o igual a 6</text>
+  </g>
+  <g>
+    <rect x="1172" y="124" width="224" height="118" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="1192" y="153" class="label">IMPACTO FINANCIERO</text>
+    <text x="1192" y="194" class="num">$ ?</text>
+    <text x="1192" y="220" class="body2">Pendiente regla de cálculo</text>
+  </g>
+
+  <!-- Decisions -->
+  <rect x="276" y="266" width="664" height="232" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="296" class="section">Decisiones recomendadas</text>
+  <text x="296" y="318" class="body2">Acciones ejecutivas para destrabar delivery, caja o relación con cliente.</text>
+
+  <rect x="296" y="342" width="624" height="42" rx="6" fill="#FEF2F2" stroke="#FECACA"/>
+  <rect x="296" y="342" width="5" height="42" rx="2" fill="#DC2626"/>
+  <text x="318" y="367" class="body">Definir plan de recuperación para Mail Exchange Mediaciones</text>
+  <text x="772" y="367" class="chip" fill="#B91C1C">ALTA</text>
+
+  <rect x="296" y="398" width="624" height="42" rx="6" fill="#FFFBEB" stroke="#FDE68A"/>
+  <rect x="296" y="398" width="5" height="42" rx="2" fill="#D97706"/>
+  <text x="318" y="423" class="body">Priorizar conformidad de entregables vencidos para cerrar facturación</text>
+  <text x="768" y="423" class="chip" fill="#B45309">MEDIA</text>
+
+  <rect x="296" y="454" width="624" height="28" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="318" y="473" class="body2">Alinear alcance LUD con próximas fechas comprometidas del cliente</text>
+
+  <!-- Timeline -->
+  <rect x="956" y="266" width="440" height="232" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="976" y="296" class="section">Próximos 30 días</text>
+  <text x="976" y="318" class="body2">Vencimientos, hitos y puntos de control ejecutivo.</text>
+  <line x1="998" y1="350" x2="998" y2="472" stroke="#D1D5DB" stroke-width="2"/>
+  <circle cx="998" cy="356" r="6" fill="#DC2626"/>
+  <text x="1020" y="361" class="body">5 entregables vencidos sin conformidad</text>
+  <circle cx="998" cy="398" r="6" fill="#D97706"/>
+  <text x="1020" y="403" class="body">15 entregables próximos</text>
+  <circle cx="998" cy="440" r="6" fill="#16A34A"/>
+  <text x="1020" y="445" class="body">4 entregables conformados</text>
+  <rect x="1222" y="340" width="144" height="34" rx="6" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="1242" y="362" class="body2">Ver calendario</text>
+
+  <!-- Client health matrix -->
+  <rect x="276" y="522" width="720" height="222" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="552" class="section">Salud por cliente</text>
+  <text x="296" y="574" class="body2">Lectura cruzada entre delivery, presión ejecutiva y señal financiera.</text>
+
+  <rect x="296" y="596" width="680" height="40" fill="#F9FAFB"/>
+  <text x="316" y="621" class="label">CLIENTE</text>
+  <text x="482" y="621" class="label">DELIVERY</text>
+  <text x="610" y="621" class="label">FINANZAS</text>
+  <text x="742" y="621" class="label">ACCIÓN EJECUTIVA</text>
+
+  <line x1="296" y1="636" x2="976" y2="636" stroke="#E5E7EB"/>
+  <text x="316" y="669" class="body">Ministerio de Justicia</text>
+  <rect x="482" y="649" width="70" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A"/>
+  <circle cx="500" cy="661" r="5" fill="#D97706"/>
+  <text x="514" y="665" class="chip" fill="#92400E">ÁMBAR</text>
+  <text x="610" y="665" class="body2">Cierre condicionado</text>
+  <text x="742" y="665" class="body">Comité de alcance y vencidos</text>
+
+  <line x1="296" y1="688" x2="976" y2="688" stroke="#E5E7EB"/>
+  <text x="316" y="721" class="body">Coppel</text>
+  <rect x="482" y="701" width="70" height="24" rx="12" fill="#F0FDF4" stroke="#BBF7D0"/>
+  <circle cx="500" cy="713" r="5" fill="#16A34A"/>
+  <text x="514" y="717" class="chip" fill="#166534">VERDE</text>
+  <text x="610" y="717" class="body2">Sin bloqueo visible</text>
+  <text x="742" y="717" class="body">Mantener seguimiento mensual</text>
+
+  <!-- Right insight panel -->
+  <rect x="1012" y="522" width="384" height="222" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="1032" y="552" class="section">Lectura ejecutiva</text>
+  <text x="1032" y="581" class="body">El foco de decisión está en convertir entregables entregados en conformidad, reducir vencidos y proteger hitos del Ministerio de Justicia.</text>
+  <rect x="1032" y="612" width="344" height="1" fill="#E5E7EB"/>
+  <text x="1032" y="642" class="label">MENSAJE PARA CEO / COO</text>
+  <text x="1032" y="668" class="body2">No se requiere microgestión técnica.</text>
+  <text x="1032" y="690" class="body2">Se requiere decisión de negocio:</text>
+  <text x="1032" y="712" class="body2">prioridad, alcance, conformidad y caja.</text>
+
+  <!-- Portfolio table -->
+  <rect x="276" y="768" width="1120" height="216" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="296" y="798" class="section">Portafolio accionable</text>
+  <rect x="296" y="818" width="1080" height="38" fill="#F9FAFB"/>
+  <text x="316" y="842" class="label">CLIENTE</text>
+  <text x="492" y="842" class="label">INICIATIVA</text>
+  <text x="728" y="842" class="label">ESTADO</text>
+  <text x="846" y="842" class="label">RIESGO</text>
+  <text x="968" y="842" class="label">ENTREGABLE CLAVE</text>
+  <text x="1204" y="842" class="label">ACCIÓN</text>
+
+  <line x1="296" y1="856" x2="1376" y2="856" stroke="#E5E7EB"/>
+  <text x="316" y="890" class="body">Ministerio de Justicia</text>
+  <text x="492" y="890" class="body">LUD Legajo Único Digital</text>
+  <rect x="728" y="872" width="70" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="746" y="888" class="chip" fill="#92400E">ÁMBAR</text>
+  <text x="846" y="890" class="body">Score 6</text>
+  <text x="968" y="890" class="body">Conformidad pendiente</text>
+  <text x="1204" y="890" class="body">Comité ejecutivo</text>
+
+  <line x1="296" y1="906" x2="1376" y2="906" stroke="#E5E7EB"/>
+  <text x="316" y="940" class="body">Ministerio de Justicia</text>
+  <text x="492" y="940" class="body">Assessment 2</text>
+  <rect x="728" y="922" width="70" height="24" rx="12" fill="#FEF2F2" stroke="#FECACA"/>
+  <text x="748" y="938" class="chip" fill="#991B1B">ROJO</text>
+  <text x="846" y="940" class="body">Score 9</text>
+  <text x="968" y="940" class="body">Mail Exchange Mediaciones</text>
+  <text x="1204" y="940" class="body">Plan recuperación</text>
+</svg>
